@@ -1,0 +1,808 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&display=swap');
+
+*{  font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+h5{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+a{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffffff;
+	
+}
+.contenedor{
+	background-image: url("../img/bgartistas.png");
+   	background-repeat:repeat;
+	
+}
+.sesion{
+	background-image: url("../img/bgartistas.png");
+   	background-repeat:repeat;
+	height: 480px;
+	margin-top: 2%;
+}
+.cajasesion{
+	color: #fff;
+	float: left;
+	padding: 1%;
+	width: 38vw;
+	height: auto;
+	background-color:rgba(0,0,0,0.8);
+	border-radius: 5px;
+	margin-left: 7%;
+}
+.cajasesionl{
+	color: #fff;
+	float: left;
+	padding: 1%;
+	width: 38vw;
+	height: auto;
+	background-color:rgba(0,0,0,0.8);
+	border-radius: 5px;
+	margin-left: 7%;
+	margin-top: 4%;
+}
+
+.btnregis{
+	color: #fff;
+	background-color:rgba(0,0,0,0.8);
+	font-size: 15px;
+	border-radius: 2px;
+	border-color: #fff;
+	padding: 2%;
+	margin-bottom: 3%;
+	margin-top: 1%;
+	margin-left: 40%;
+	margin-right: 5%;
+	border: none;
+}
+.usuarior, .passr{
+	color: #fff;
+	width: 96%;
+	height: 40px;
+	background-color:rgba(255,255,255,0.4);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 2%;
+	margin-top: 2%;
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.imgbienv{
+	align-content: center;
+	margin: auto;
+}
+#label{
+	margin-top: 2%;
+}
+#nombrer, #apellidor, #emailr{
+	color: #fff;
+	width: 96%;
+	height: 40px;
+	background-color:rgba(255,255,255,0.8);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 4%;
+	margin-top: 2%;
+	border: none;
+}
+.titsesion{
+	color: #fff;
+}
+.cajafoto{
+	float: right;
+	width: 38vw;
+	height: 470px;
+	margin-right: 7%;
+	margin-top: 1%;
+}
+.cajafotor{
+	float: right;
+	width: 38vw;
+	height: 470px;
+	margin-right: 7%;
+	margin-top: 4%;
+}
+
+.bienvenidook{
+	align-content: center;
+	margin: auto;
+}
+
+
+header{
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 1%;
+	width: 100%;
+	height: auto;
+	
+}
+#headerinternas{
+	padding-top: 1%;
+	width: 100%;
+	height: 130px;
+}
+
+#logo{
+	width: 42%;
+	background-color: #fff;
+}
+/*
+#txtlogo{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #000;
+}*/
+.logoindex{
+	width: 90%;
+	background-color: #fff;
+	
+}
+.btnhistoriainterna{
+	float: left;
+	color: #fff;
+	background-color: #fff;
+	
+	font-size: 16px;
+	border: none;
+}
+.bajainterna {
+	float: left;
+  position: relative;
+  display: inline-block;
+		background-color: #fff;
+}
+
+.baja-filointerna {
+  display: none;
+  color: #af0000;
+  position: absolute;
+  top: 100px; left: 25px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #af0000;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+}
+.baja-filointerna a {
+  margin: auto;
+  font-size: 11px;
+  color: #af0000;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.baja-filointerna a:hover {background-color: #fff;}
+
+.bajainterna:hover .baja-filointerna {display: block;}
+
+.bajainterna:hover .btnhistoriainterna {background-color: #fff;}
+.btnsesionindex{
+		float: right;
+		
+		  background-color: #fff;
+		  color: white;
+		  padding: 16px;
+		  font-size: 16px;
+		  border: none;
+}
+.btnlupa{
+	float: right;
+	
+		  background-color: #fff;
+		  color: white;
+		  padding: 16px;
+		  font-size: 16px;
+		  border: none;
+}
+.btnsesion{
+		  float: right;
+		  background-color: #fff;
+		  color: white;
+		  padding: 10px;
+		  font-size: 16px;
+		  border: none;
+		  margin-top: 1%;
+}
+
+nav{
+	float: right;
+	padding-left: 1%;
+	width: 45%;
+	height: 50px;
+	
+}
+
+#index{
+	height: auto;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 5%;
+}
+#bienvenido{
+	margin-left: 30%;
+	padding: 1%;
+}
+#bienvenido:hover{
+	color: #af0000;
+}
+
+#buscador{
+   height: 460px;
+    width: 80%;
+	align-content: center;
+	margin: auto;
+   background-repeat:repeat;
+   background-position: center;
+   background-size: cover;
+}
+#titbuscador{
+	margin-left: 30vw;
+	padding: 1%;
+	margin-top: 20vh;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.searchTerm {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 5px;
+  height: 8vh;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.searchTerm:focus{
+  color: #00B4CC;
+}
+.searchButton {
+  decoration:none;
+  padding: 1%;
+  width: 6vw;
+  height: 8vh;
+  border: 1px solid #000;
+  background: #000;
+  margin-top: 1%;
+margin-left: 37vw;
+   color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.barrabusca{
+  width: 500px;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.resulbuscar{
+	height: auto;
+}
+#resuls{
+	height: auto;
+	
+}
+
+
+#login{
+	width: 100%;
+	height: auto;
+	background-color: red;
+}
+#cajalogin{
+	float: left;
+	width: 36vw;
+	height: 470px;
+	/*cambio height y no cambia*/
+	color: #fff;
+	padding: 3%;
+	background-color: rgba(0,0,0,1.00);
+	border-radius: 5px;
+	margin-left: 2%;
+}
+
+input{
+	color: #fff;
+	text-decoration: none;
+}
+
+#btnar{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+::placeholder {
+  color: #fff;
+}
+#nombre{
+	color: #fff;
+	width: 96%;
+	height: 40px;
+	background-color:rgba(255,255,255,0.3);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 2%;
+	border: none;
+  
+}
+
+#btnai{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+#titulartistas{
+	margin-left: 37%;
+	padding: 1%;
+	color: #000;
+}
+#titulartistas:hover{
+	color: #6B652F;
+}
+#historia{
+	height: auto;
+	padding-top: 1%;
+	padding-bottom: 4%;
+}
+#filosofia{
+	height: auto;
+	padding-top: 1%;
+	padding-bottom: 4%;
+}
+
+#contacto{
+	height: auto;
+	padding-top: 1%;
+	padding-bottom: 4%;
+	
+}
+#artistas{
+	height: auto;
+	padding-top: 1%;
+	padding-bottom: 4%;
+	margin-bottom: 2%;
+	
+}
+#obras{
+	align-content: center;
+	margin: auto;
+	padding-bottom: 4%;
+	height: auto;
+	
+}
+
+mark{
+	background-color: #af0000;
+}
+
+.iconosindex{
+	width: 100%;
+	width: 265px;
+	height: 265px;
+	margin-top: 30%;
+	
+}
+
+.btnhistoria{
+	
+	float: left;
+	width: 25%;
+	padding-left: 2%;
+	padding-right: 2%;
+
+		  background-color: #fff;
+		  color: white;
+		  padding: 16px;
+		  font-size: 16px;
+		  border: none;
+	
+}
+.baja {
+  position: relative;
+  display: inline-block;
+}
+.baja-filo {
+  display: none;
+  color: #af0000;
+  position: absolute;
+  top: 275px; left: 25px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #af0000;
+  min-width: 160px;
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
+ 
+}
+.baja-filo a {
+  margin: auto;
+  color: #af0000;
+  padding: 12px 90px;
+  text-decoration: none;
+  display: block;
+}
+.baja-filo a:hover {background-color: #fff;}
+.baja:hover .baja-filo {display: block;}
+.baja:hover .btnhistoria {background-color: #fff;}
+
+.btnartistas{
+		
+	float: right;
+	width: 25%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #fff;
+	border: none;
+}
+.btnobras{
+	
+	float: right;
+	width: 25%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #fff;
+	border: none;
+}
+.btncontacto{ 
+	
+	float: right;
+	width: 25%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #fff;
+	border: none;
+}
+
+#historiaizq{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #fff;	
+	padding: 1%;
+	padding-left: 3%;
+	padding-right: 2%;
+
+}
+#historiader{
+	float: right;
+	width: 50%;
+	height: auto;
+	background-color: #fff;	
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+
+#filoizq{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #fff;	
+	padding: 1%;
+	padding-left: 3%;
+	padding-right: 2%;
+	
+
+}
+#filoder{
+	float: right;
+	width: 50%;
+	height: auto;
+	background-color: #fff;	
+	padding-top: 4%;
+	padding-left: 1%;
+	padding-right: 1%;
+	
+
+}
+
+#contactoder{
+	width: 55%;
+	height: auto;
+	float: right;
+	padding-top: 1%; 
+	padding-right: 7%;
+	
+	padding-bottom: 2%;
+
+}
+#imgco{
+	width: 100%;
+	margin: auto;
+	border-color: rgba(20,58,84,1);
+	box-shadow:0px 6px 12px 0px rgba(0,0,0,0.2); 
+	border-radius: 8px;
+}
+#contactoizq{
+	
+	
+	float: left;
+	width: 45%;
+	margin: auto;
+	padding-top: 1%; 
+	padding-left: 7%;
+	padding-bottom: 2%;
+	
+}
+#cajacontacto{
+	
+	color: #fff;
+	padding: 3%;
+	width: 36vw;
+	height: 470px;
+	background-color:rgba(20,58,84,1);
+	border-radius: 5px;
+	margin-left: 1%;
+	
+	}
+#cajacontacto:hover{
+	color: #fff;
+	padding: 2%;
+	width: 37vw;
+	height: 480px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: bold;
+	background-color: rgba(0,0,0,1.00);
+	border-radius: 20px;
+	text-shadow: 2px 2px 8px rgba(211,129,58,0.5);
+	font-size: 18px;
+	padding-right: 1%;
+	border: none;
+	margin-bottom: 1%;
+	
+}
+input{
+	color: #fff;
+	text-decoration: none;
+}
+#titulocontacto{
+	margin-top: 2%;
+	margin-left: 1%;
+}
+::placeholder {
+  color: #fff;
+}
+#nombre{
+	color: #fff;
+	width: 96%;
+	height: 40px;
+	background-color:rgba(255,255,255,0.3);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 2%;
+	border: none;
+  
+}
+#email{
+	color: #fff;
+	width: 96%;
+	height: 40px;
+	background-color:rgba(255,255,255,0.4);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 2%;
+	margin-top: 2%;
+	border: none;
+}
+#mensaje{
+	color: #fff;
+	width: 96%;
+	height: 145px;
+	background-color:rgba(255,255,255,0.4);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 2%;
+	margin-top: 2%;
+	border: none;
+}
+#boton{
+	color: #fff;
+	background-color:rgba(255,255,255,0.4);
+	font-size: 15px;
+	border-radius: 2px;
+	border-color: #fff;
+	padding: 2%;
+	margin-bottom: 3%;
+	margin-left: 40%;
+	margin-right: 5%;
+	border: none;
+}
+#boton:hover{
+	color: rgba(0,0,0,1.00);
+	background-color: rgba(255,255,255,1);
+	font-size: 15px;
+	font-style: bold;
+	border-radius: 2px;
+	border-color: #fff;
+	margin-bottom: 1%;
+	border: none;
+	
+}
+#boton:active{
+	background: rgba(34,172,23,1.00);
+	
+}
+
+.imgartistas{
+	margin: auto;
+	padding: auto;
+	margin-left: 8%;
+}
+.imgartistas:hover {
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+#artistasizq{
+	margin: auto;
+	float: left;
+	width: 33%;
+	height: auto;
+	
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 2%;
+	text-align: justify; 
+}
+#artistasizq:hover, #obrasaizq:hover{
+	color: #af0000;
+}
+#artistascentro{
+	margin: auto;
+	float: left;
+	width: 33%;
+	height: auto;
+	
+	padding-top: 2%;
+	padding-left: 1%;
+	padding-right: 2%;
+	text-align: justify;	
+}
+#artistascentro:hover, #obrasacentro:hover{
+	color: #d3813a;
+}
+#artistasder{
+	margin: auto;
+	float: right;
+	width: 33%;
+	height: auto;
+		
+	padding-top: 2%;
+	padding-right: 3%;
+	text-align: justify;
+}
+#artistasder:hover, #obrasader:hover{
+	color: #143a54;
+}
+
+.tituloobrasok{
+	margin-left: 33%;
+	padding: 1%;
+	color: #000;
+}
+.tituloobrasok:hover{
+	color: #d3813a
+}
+.imgobras{
+	width: 100%;
+	margin: auto;
+	padding: auto;
+}
+.imgobras:hover{
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+.tituloobrasartistas:hover{
+	color: #d3813a;
+}
+
+#obrasgal{
+	margin-left: 2%;
+}
+h3{
+	padding-top: 1%;
+	
+}
+
+#obrasizq{
+	margin: auto;
+	float: left;
+	width: 33%;
+	height: auto;
+	
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 2%;
+	
+}
+#obrascentro{
+	margin: auto;
+	float: left;
+	width: 33%;
+	height: auto;
+	padding-top: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	
+	
+}
+#obrasder{
+	margin: auto;
+	float: right;
+	width: 33%;
+	height: auto;
+	padding-top: 2%;
+	padding-right: 3%;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #fff;	
+	padding-top: 1%;
+}
+
+.izquierdapie{
+	width: 60%;
+	height: 50px;
+	background-color: #fff;
+	float: left;
+	padding-left: 2%;
+	padding-top: 1%;
+}
+
+#derecha{
+	
+	width: 34%;
+	height: 50px;
+	background-color: #fff;
+	float: right;
+	padding-left: 11%;
+	padding-top: 1%;
+	
+}
+.ig{
+	margin-left: 40%;
+}
+.pin{
+	margin-left: 5%;
+}
+.yt{
+	margin-left: 5%;
+}
+
+
+
+
